@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Form Validation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <form name="formPendaftaran" action="daftar.php" method="post">
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama lengkap" class="form-control">
+
+            </div>
+            <div class="form-group">
+                <label for="ttl">TTL</label>
+                <input type="text" name="ttl" id="ttl" placeholder="Tempat dan Tanggal Lahir" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Utusan unit TKA/TPA</label>
+                <input type="email" name="email" placeholder="Unit asal anda" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Kelurahan</label>
+                <input type="email" name="email" placeholder="Kelurahan" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Kecamatan</label>
+                <input type="email" name="email" placeholder="Kecamatan" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Nomor Telepon</label>
+                <input type="email" name="email" placeholder="No. WA" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Jenis Lomba</label>
+                <select name="jurusan" class="form-control">
+                        <option value="0">Tarik Tambang</option>
+                        <option value="1">Lari Estafet</option>
+                        <option value="2">Gobak Sodor</option>
+                        <option value="3">Tartil</option>
+                        <option value="3">Ceramah</option>
+                    </select>
+            </div>
+            <button type="submit" class="btn-primary"><a href="hasil.html">Submit</a></button>
+            
+        </form>
+    </div>
+    <script src="kuis.js"></script>
+</body>
+</html>

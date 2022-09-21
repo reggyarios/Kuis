@@ -1,0 +1,39 @@
+body{
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    margin: 2rem;
+    border-radius: 14px;
+    max-width: 50%;
+ 
+}
+
+
+.container .judul{
+    text-align: center;
+}
+
+.container .ul.li{
+    overflow: hidden;
+    display: none;
+}
+
+table{
+    align-self: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    size: 50%;
+}
+
+.footer .kepala{
+    float: left;
+}
+.footer .peserta{
+    float: right;
+}
